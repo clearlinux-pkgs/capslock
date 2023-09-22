@@ -1,0 +1,23 @@
+From c8f4ae20689784851ad016580d3ae5f65841bbe8 Mon Sep 17 00:00:00 2001
+From: William Douglas <william.douglas@intel.com>
+Date: Fri, 22 Sep 2023 11:49:31 -0700
+Subject: [PATCH] Add install target makefile
+
+---
+ Makefile | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 Makefile
+
+diff --git a/Makefile b/Makefile
+new file mode 100644
+index 0000000..b1f3524
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,4 @@
++all:
++
++install:
++	(cd cmd/capslock; GOBIN=$(DESTDIR) go install)
+-- 
+2.42.0
+

@@ -1,0 +1,1 @@
+DESTDIR=%{buildroot}/usr/bin/ make install -f Makefile
