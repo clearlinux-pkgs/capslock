@@ -7,7 +7,7 @@
 #
 Name     : capslock
 Version  : 0.2.6
-Release  : 3
+Release  : 4
 URL      : https://github.com/google/capslock/archive/v0.2.6/capslock-0.2.6.tar.gz
 Source0  : https://github.com/google/capslock/archive/v0.2.6/capslock-0.2.6.tar.gz
 Source1  : http://localhost/cgit/projects/capslock-vendor/snapshot/capslock-vendor-0.2.6.tar.xz
